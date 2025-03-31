@@ -13,7 +13,7 @@ export default function Header() {
         </div>
 
         <nav>
-          <a href="/">About</a>
+          <a href="/">Home</a>
           {/* <a href="/">Contact</a>
           <a href="/">Blog</a> */}
         </nav>
