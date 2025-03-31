@@ -13,8 +13,8 @@ export default function Footer() {
           <h4>Quick Links</h4>
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/product">Product</a></li>
-            <li><a href="/hero">Hero</a></li>
+            {/* <li><a href="/product">Product</a></li>
+            <li><a href="/hero">Hero</a></li> */}
           </ul>
         </div>
         <div className="footer-column">

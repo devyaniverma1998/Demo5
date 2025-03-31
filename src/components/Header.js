@@ -13,9 +13,9 @@ export default function Header() {
         </div>
 
         <nav>
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
-          <a href="/blog">Blog</a>
+          <a href="/">About</a>
+          {/* <a href="/">Contact</a>
+          <a href="/">Blog</a> */}
         </nav>
 
         <div className="right-section">
