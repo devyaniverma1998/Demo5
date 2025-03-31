@@ -1,0 +1,96 @@
+/* Header.css */
+header {
+  background: linear-gradient(to right, #185915f7, #185915f7);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0px 16px;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-button {
+  display: none;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.search-box {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  color: #185915f7;
+}
+
+.cart-button {
+  position: relative;
+  font-size: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: white;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: red;
+  color: white;
+  font-size: 10px;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-button {
+  display: none;
+  background: white;
+  color: #185915f7;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  background: #ebf4ff;
+}
+
+/* Show menu button and login button on larger screens */
+@media (min-width: 768px) {
+  .menu-button {
+    display: block;
+  }
+  .login-button {
+    display: inline-block;
+  }
+}

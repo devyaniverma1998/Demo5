@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,111 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* Header Styles */
+.header {
+  background: linear-gradient(to right, #185915f7, #185915f7); /* Gradient background */
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Container Styles */
+.header-container {
+  max-width: 7xl;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Navigation Styles */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Search Input Styles */
+.search-input {
+  background: white;
+  color: #185915f7;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px; /* Full rounded */
+  outline: none;
+}
+
+/* Button Styles */
+.button {
+  background: white;
+  color: #185915f7;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px; /* Full rounded */
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #edf2f7; /* Light hover effect */
+}
+
+/* Hero.css */
+
+.hero-section {
+  background-color: white;
+  padding: 2rem 0;
+}
+
+.hero-container {
+  max-width: 7xl;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.hero-image {
+  width: 100%;
+  height: 12rem; /* Default height */
+  object-fit: cover;
+  border-radius: 0.75rem; /* Rounded corners */
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
+}
+
+.hero-title {
+  font-size: 2rem; /* Default size */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.hero-description {
+  font-size: 0.875rem; /* Small size */
+  margin-bottom: 1rem;
+}
+
+.hero-button {
+  background-color: #185915f7; /* Indigo color */
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px; /* Full rounded */
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #4338ca; /* Darker indigo on hover */
 }
